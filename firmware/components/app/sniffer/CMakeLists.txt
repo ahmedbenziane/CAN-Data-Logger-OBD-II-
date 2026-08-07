@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "sniffer_app.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        mcp2515
+        json
+        spiffs
+        esp_timer
+        esp_common
+        log
+        freertos
+)

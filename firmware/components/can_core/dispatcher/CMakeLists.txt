@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS
+        "error_handler.c"
+        "dispatcher.c"
+        "ecu_manager.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        freertos
+        log
+        mcp2515
+)

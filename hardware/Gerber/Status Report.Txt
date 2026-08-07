@@ -1,0 +1,23 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [CAR_Interface.PrjPcb]
+   Generated File[CAR_Interface_PCB_Copper_Signal_Top.gbr]
+   Generated File[CAR_Interface_PCB_Copper_Signal_1.gbr]
+   Generated File[CAR_Interface_PCB_Copper_Signal_2.gbr]
+   Generated File[CAR_Interface_PCB_Copper_Signal_Bot.gbr]
+   Generated File[CAR_Interface_PCB_Legend_Top.gbr]
+   Generated File[CAR_Interface_PCB_Legend_Bot.gbr]
+   Generated File[CAR_Interface_PCB_Soldermask_Top.gbr]
+   Generated File[CAR_Interface_PCB_Soldermask_Bot.gbr]
+   Generated File[CAR_Interface_PCB_Paste_Top.gbr]
+   Generated File[CAR_Interface_PCB_Profile.gbr]
+   Generated File[CAR_Interface_PCB_NPTH_Drill.gbr]
+   Generated File[CAR_Interface_PCB_PTH_Drill.gbr]
+   Generated File[CAR_Interface_PCB.EXTREP]
+   Generated File[CAR_Interface_PCB.REP]
+
+
+Files Generated   : 14
+Documents Printed : 0
+
+Finished Output Generation At 00:16:54 On 11/06/2026

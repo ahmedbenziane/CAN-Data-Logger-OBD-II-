@@ -1,0 +1,6 @@
+.pio
+.vscode
+*.o
+*.d
+*.elf
+*.map

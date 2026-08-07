@@ -1,0 +1,19 @@
+idf_component_register(
+    SRCS
+        "decoder_app.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_driver_spi
+        esp_timer
+        freertos
+        isotp
+        UDS
+        mcp2515
+        log
+        spi_flash
+        utils
+        logger
+
+)

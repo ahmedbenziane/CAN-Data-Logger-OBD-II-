@@ -1,0 +1,17 @@
+idf_component_register(
+    SRCS
+        "sd_logger.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_driver_spi
+        esp_timer
+        freertos
+        sdmmc
+        fatfs
+        mcp2515
+        log
+        spi_flash
+        utils
+)

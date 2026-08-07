@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        "obd.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        esp_timer
+        isotp
+        log
+)

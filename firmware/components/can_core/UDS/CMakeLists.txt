@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "uds.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_driver_spi
+        esp_timer
+        freertos
+        isotp
+        log
+        mcp2515
+)

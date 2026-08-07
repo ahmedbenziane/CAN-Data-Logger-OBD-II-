@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS
+        "shutdown_button.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_timer
+        freertos
+        logger
+        log
+)

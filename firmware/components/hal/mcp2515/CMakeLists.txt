@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "mcp2515.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_driver_spi
+        esp_timer
+        freertos
+        log
+        spi_flash
+        utils
+)

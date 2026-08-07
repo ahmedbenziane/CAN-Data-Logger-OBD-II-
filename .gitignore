@@ -1,0 +1,23 @@
+# Altium
+*.OutJob
+*.PrjPcbStructure
+*.html
+*.htm
+*.log
+*.SchDocPreview
+*.PcbDocPreview
+__Previews/
+History/
+Backups/
+
+# PlatformIO / ESP-IDF
+.pio/
+.vscode/
+build/
+sdkconfig.old
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
