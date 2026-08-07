@@ -48,7 +48,7 @@ Tested and validated on a production Renault Clio IV.
 ### Software
 ```bash
 pip install -r software/requirements.txt
-python software/can_sniffer.py --port COM12
+python software/can_sniffer.py --port 
 ```
 
 Additional Python tools:
@@ -58,15 +58,15 @@ Additional Python tools:
 - `plot_validation.py` – generate validation plots from OBD-II JSON logs
 
 ## Validation
-The system has been validated on a Renault Clio IV:
+The system has been validated on a Real Car:
 
 - Active OBD-II polling matches dashboard gauges within their resolution
-- Passive sniffing captures all broadcast CAN identifiers (44 unique IDs)
+- Passive sniffing captures all broadcast CAN identifiers 
 - Proprietary signals (steering, wheel speeds, brake pressure) are decoded and physically verified
 - Continuous logging over a 30-minute drive with zero firmware crashes
 
 ## Customisation
-- Add your own signal definitions by editing `renault_clio4.json` (or a DBC file)
+- Add your own signal definitions by editing  DBC file
 - Modify the OBD-II schedule in `decoder_app.c` to poll different PIDs
 - Implement on-device inference by deploying a trained model using TensorFlow Lite Micro
 
